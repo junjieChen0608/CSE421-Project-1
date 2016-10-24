@@ -1,0 +1,35 @@
+This is the 2016 FALL CSE421 Pintos Project 1 made by Team SOS.
+
+Team member:
+Dixin Chen		dixinche@buffalo.edu
+Fengyu Wu		fengyuwu@buffalo.edu
+Junjie Chen		jchen232@buffalo.edu
+
+Finish date: 2016/10/15
+
+Note:
+
+1, To initialize tests for projcect 1 please go to "src/threads/" then "make check" 
+
+2, Modified or new files:
+
+pintos/src/threads/
+fixed-p.h
+fixed-p.c
+thread.h
+thread.c
+synch.h
+synch.c
+DESIGNDOC
+
+pintos/src/lib/kernel/
+list.h
+list.c
+
+pintos/src/devices/
+timer.c
+
+3, The ASCII art in the DESIGNDOC that intended to describe nested priority donation might be malformed for unknown reason,
+it shows up in our local machine with no problem though.
+
+4, All 27 tests are passed on timberlake server using "make check" command.
